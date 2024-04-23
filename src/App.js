@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Experience from "./components/Experience";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Passion from "./components/Passion";
@@ -11,6 +12,7 @@ function App() {
         <Home />
         <About />
         <Passion />
+        <Experience />
       </main>
     </>
   );

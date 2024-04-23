@@ -3,13 +3,10 @@ import { GrPersonalComputer } from "react-icons/gr";
 
 export default function Passion() {
   return (
-    <section
-      id="passion"
-      className=" bg-violet-100/25 font-Poppins pt-20 pb-4 shadow"
-    >
+    <section id="passion" className=" bg-violet-100/25 font-Poppins pt-20 pb-4">
       <div className="max-w-md mx-auto">
         <div className=" text-center">
-          <h1 className=" text-4xl uppercase font-medium">What I do</h1>
+          <h1 className=" text-4xl uppercase font-normal">What I do</h1>
 
           <div className="bg-violet-100 p-6 shadow-md size-fit flex flex-col items-center justify-center my-20 rounded-md">
             <div className=" bg-violet-700 size-40 flex items-center justify-center rounded-full shadow-sm ">

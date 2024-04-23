@@ -5,13 +5,8 @@ export default function Home() {
   return (
     <section
       id="home"
-      className="relative h-[760px] w-full flex items-center justify-center"
+      className="relative h-[760px] w-full flex items-center justify-center bg-[url('https://cdn.pixabay.com/photo/2015/09/09/19/56/office-932926_1280.jpg')] bg-cover bg-center bg-black/50 bg-blend-darken bg-fixed"
     >
-      <img
-        className="h-full w-full object-cover brightness-50"
-        src="https://cdn.pixabay.com/photo/2015/09/09/19/56/office-932926_1280.jpg"
-        alt="About"
-      />
       <div className=" absolute size-fit font-Poppins flex flex-col items-center gap-3 m-2 -translate-y-14">
         <h1 className=" uppercase font-light text-white text-6xl">
           Hi, I'm{" "}
