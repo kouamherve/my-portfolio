@@ -10,11 +10,11 @@ export default function Header() {
   };
 
   return (
-    <div>
-      <nav className=" bg-indigo-900 text-white flex items-center justify-between p-3">
-        <Link className=" flex items-center justify-center gap-3 w-fit uppercase font-bold tracking-wider hover:text-indigo-300">
+    <div className=" w-full fixed z-30">
+      <nav className=" bg-black text-white flex items-center justify-between p-3 ">
+        <Link className=" flex items-center justify-center gap-3 w-fit uppercase font-bold tracking-wider hover:text-indigo-400">
           <img
-            className="size-8 bg-indigo-700 rounded-full p-1"
+            className="size-8 bg-indigo-600 rounded-full p-1"
             src="logo.png"
             alt="logo"
           />
@@ -25,21 +25,21 @@ export default function Header() {
           onClick={onShowMenu}
         />
       </nav>
-      <div className={`bg-indigo-900 ${isShow ? "" : "hidden"}`}>
+      <div className={`bg-black ${isShow ? "" : "hidden"}`}>
         <ul className="text-white uppercase text-sm font-Poppins font-medium py-5 flex flex-col items-center justify-center gap-8">
-          <li className=" hover:text-indigo-300">
+          <li className=" hover:text-indigo-400">
             <Link>about</Link>
           </li>
-          <li className=" hover:text-indigo-300">
+          <li className=" hover:text-indigo-400">
             <Link>passion</Link>
           </li>
-          <li className=" hover:text-indigo-300">
+          <li className=" hover:text-indigo-400">
             <Link>experience</Link>
           </li>
-          <li className=" hover:text-indigo-300">
+          <li className=" hover:text-indigo-400">
             <Link>work</Link>
           </li>
-          <li className=" hover:text-indigo-300">
+          <li className=" hover:text-indigo-400">
             <Link>contact</Link>
           </li>
         </ul>
