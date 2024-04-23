@@ -1,6 +1,7 @@
 import About from "./components/About";
 import Header from "./components/Header";
 import Home from "./components/Home";
+import Passion from "./components/Passion";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <main>
         <Home />
         <About />
+        <Passion />
       </main>
     </>
   );

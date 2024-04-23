@@ -19,7 +19,7 @@ export default function Home() {
             <span className=" bg-white mx-1 px-2 py-0 rounded-md shadow ">
               h
             </span>
-            <span className=" bg-white mx-1 px-2 py-0 rounded-md shadow text-indigo-600 ">
+            <span className=" bg-white mx-1 px-2 py-0 rounded-md shadow text-violet-600 ">
               e
             </span>
             <span className=" bg-white mx-1 px-2 py-0 rounded-md shadow ">
@@ -28,7 +28,7 @@ export default function Home() {
             <span className=" bg-white mx-1 px-2 py-0 rounded-md shadow ">
               v
             </span>
-            <span className=" bg-white mx-1 px-2 py-0 rounded-md shadow text-indigo-600 ">
+            <span className=" bg-white mx-1 px-2 py-0 rounded-md shadow text-violet-600 ">
               e
             </span>
           </span>{" "}

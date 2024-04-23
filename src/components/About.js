@@ -5,7 +5,7 @@ export default function About() {
   return (
     <section className=" max-w-lg mx-auto font-Poppins mt-16 mb-24" id="about">
       <div className=" flex flex-col items-center gap-8">
-        <h1 className=" uppercase text-4xl font-medium">
+        <h1 className=" uppercase text-4xl font-medium mb-6">
           A litle bit about me
         </h1>
         <img
@@ -17,15 +17,15 @@ export default function About() {
           <p>
             Hey! my name is Herve Kouam and I'm a web developer with a passion
             for{" "}
-            <span className=" text-indigo-600 font-medium capitalize">
+            <span className=" text-violet-600 font-medium capitalize">
               front end development.{" "}
             </span>
             I'm currently a third year student at{" "}
-            <span className=" text-indigo-600 font-medium capitalize">
+            <span className=" text-violet-600 font-medium capitalize">
               Northeastern University{" "}
             </span>
             pursuing a degree in{" "}
-            <span className=" text-indigo-600 font-medium capitalize">
+            <span className=" text-violet-600 font-medium capitalize">
               information science{" "}
             </span>
             with a minor in interaction design. I aspire toward a career that
