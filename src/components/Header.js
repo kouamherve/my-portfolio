@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 export default function Header() {
   const [isShow, setIsShow] = useState(false);
@@ -12,7 +12,11 @@ export default function Header() {
   return (
     <div className=" w-full fixed z-30">
       <nav className=" bg-black text-white flex items-center justify-between p-3 ">
-        <Link className=" flex items-center justify-center gap-3 w-fit uppercase font-bold tracking-wider hover:text-indigo-400">
+        <Link
+          to="#home"
+          smooth
+          className=" flex items-center justify-center gap-3 w-fit uppercase font-bold tracking-wider hover:text-indigo-400"
+        >
           <img
             className="size-8 bg-indigo-600 rounded-full p-1"
             src="logo.png"
@@ -28,19 +32,29 @@ export default function Header() {
       <div className={`bg-black ${isShow ? "" : "hidden"}`}>
         <ul className="text-white uppercase text-sm font-Poppins font-medium py-5 flex flex-col items-center justify-center gap-8">
           <li className=" hover:text-indigo-400">
-            <Link>about</Link>
+            <Link to="#about" smooth>
+              about
+            </Link>
           </li>
           <li className=" hover:text-indigo-400">
-            <Link>passion</Link>
+            <Link to="#passion" smooth>
+              passion
+            </Link>
           </li>
           <li className=" hover:text-indigo-400">
-            <Link>experience</Link>
+            <Link to="#experience" smooth>
+              experience
+            </Link>
           </li>
           <li className=" hover:text-indigo-400">
-            <Link>work</Link>
+            <Link to="#work" smooth>
+              work
+            </Link>
           </li>
           <li className=" hover:text-indigo-400">
-            <Link>contact</Link>
+            <Link to="#contact" smooth>
+              contact
+            </Link>
           </li>
         </ul>
       </div>

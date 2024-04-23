@@ -1,8 +1,12 @@
 import { FaAngleDown } from "react-icons/fa";
+import { HashLink as Link } from "react-router-hash-link";
 
 export default function Home() {
   return (
-    <section className="relative h-[760px] w-full flex items-center justify-center">
+    <section
+      id="home"
+      className="relative h-[760px] w-full flex items-center justify-center"
+    >
       <img
         className="h-full w-full object-cover brightness-50"
         src="https://cdn.pixabay.com/photo/2015/09/09/19/56/office-932926_1280.jpg"
@@ -33,7 +37,9 @@ export default function Home() {
           front-end Web developer
         </h2>
         <div className="size-12 ">
-          <FaAngleDown className="size-full text-black rounded-full mt-44 cursor-pointer bg-gray-300 hover:bg-gray-400 active:bg-gray-500" />
+          <Link to="#about" smooth>
+            <FaAngleDown className="size-full text-black rounded-full mt-44 cursor-pointer bg-gray-300 hover:bg-gray-400 active:bg-gray-500" />
+          </Link>
         </div>
       </div>
     </section>
