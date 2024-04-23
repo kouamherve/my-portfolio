@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { MdClose } from "react-icons/md";
 import { HashLink as Link } from "react-router-hash-link";
 
 export default function Header() {
@@ -24,10 +25,17 @@ export default function Header() {
           />
           <span>herve kouam</span>
         </Link>
-        <GiHamburgerMenu
-          className=" text-3xl mr-3 cursor-pointer"
-          onClick={onShowMenu}
-        />
+        {isShow ? (
+          <MdClose
+            onClick={onShowMenu}
+            className=" text-3xl mr-3 cursor-pointer"
+          />
+        ) : (
+          <GiHamburgerMenu
+            className=" text-3xl mr-3 cursor-pointer"
+            onClick={onShowMenu}
+          />
+        )}
       </nav>
       <div className={`bg-black ${isShow ? "" : "hidden"}`}>
         <ul className="text-white uppercase text-sm font-Poppins font-medium py-5 flex flex-col items-center justify-center gap-8">
