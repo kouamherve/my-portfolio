@@ -28,7 +28,7 @@ export default function Header() {
         {isShow ? (
           <MdClose
             onClick={onShowMenu}
-            className=" text-3xl mr-3 cursor-pointer"
+            className=" text-xl mr-3 cursor-pointer"
           />
         ) : (
           <GiHamburgerMenu

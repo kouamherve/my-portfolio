@@ -167,7 +167,10 @@ export default function Work() {
             </Link>
           </div>
         </div>
-        <div className=" bg-gray-100 flex flex-col items-center justify-center my-20 p-8">
+        <div
+          id="contact"
+          className=" bg-gray-100 flex flex-col items-center justify-center mt-20 mb-0 p-8"
+        >
           <SiMinutemailer className=" text-7xl text-gray-500 my-4" />
           <h1 className=" text-3xl uppercase tracking-wider">Get in touch!</h1>
           <p className=" text-gray-600 p-8 font-normal">
