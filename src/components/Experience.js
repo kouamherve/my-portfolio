@@ -110,6 +110,17 @@ export default function Experience() {
             </Link>
           </div>
         </div>
+
+        <div className="flex items-center justify-center mb-20 bg-[url('https://cdn.pixabay.com/photo/2016/11/19/15/32/laptop-1839876_1280.jpg')] bg-cover bg-center bg-black/75 bg-blend-darken h-72 bg-fixed">
+          <div className=" text-white  ">
+            <h1 className=" text-3xl uppercase font-light tracking-wider">
+              Check out my résumé!
+            </h1>
+            <button className=" bg-transparent hover:bg-gray-600/50 border border-white px-5 hover:px-7 py-3 mt-10 capitalize text-md font-light rounded-sm shadow ">
+              Grab a copy
+            </button>
+          </div>
+        </div>
       </div>
     </section>
   );
