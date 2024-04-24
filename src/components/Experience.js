@@ -97,7 +97,7 @@ export default function Experience() {
               <TbBrandVercel />
             </div>
           </div>{" "}
-          <div className="mb-20 flex flex-col items-center">
+          <div className="mb-10 flex flex-col items-center">
             <h2 className=" text-base uppercase font-medium tracking-wider">
               Where I've worked:
             </h2>
@@ -116,7 +116,7 @@ export default function Experience() {
             <h1 className=" text-3xl uppercase font-light tracking-wider">
               Check out my résumé!
             </h1>
-            <button className=" bg-transparent hover:bg-gray-600/50 border border-white px-5 hover:px-7 py-3 mt-10 capitalize text-md font-light rounded-sm shadow ">
+            <button className=" bg-transparent hover:bg-gray-600/50 border border-white px-5 hover:px-7 py-3 mt-10 capitalize text-md font-light rounded shadow ">
               Grab a copy
             </button>
           </div>
