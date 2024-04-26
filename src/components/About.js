@@ -3,9 +3,9 @@ import { MdLibraryMusic } from "react-icons/md";
 
 export default function About() {
   return (
-    <section className=" max-w-lg mx-auto font-Poppins mt-16 mb-24" id="about">
+    <section className=" max-w-lg mx-auto font-Poppins" id="about">
       <div className=" flex flex-col items-center gap-8">
-        <h1 className=" uppercase text-4xl font-normal mb-6">
+        <h1 className=" uppercase text-4xl font-normal mb-2 mt-16">
           A litle bit about me
         </h1>
         <img
