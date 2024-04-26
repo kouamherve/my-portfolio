@@ -5,7 +5,7 @@ export default function Work() {
   return (
     <section id="work" className=" font-Poppins mx-4 mb-20">
       <div className=" flex flex-col items-center justify-center">
-        <div className=" text-center mb-20">
+        <div className=" text-center mb-14">
           <h1 className="text-4xl uppercase font-normal mt-16 mb-1">
             What I've done
           </h1>
