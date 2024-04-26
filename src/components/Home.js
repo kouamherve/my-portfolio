@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <section
       id="home"
-      className="relative h-[760px] w-full flex items-center justify-center bg-[url('https://cdn.pixabay.com/photo/2015/09/09/19/56/office-932926_1280.jpg')] bg-cover bg-center bg-black/50 bg-blend-darken bg-fixed"
+      className="relative h-[760px] w-full flex items-center justify-center bg-home-page bg-cover bg-center bg-black/50 bg-blend-darken bg-fixed overflow-x-hidden"
     >
       <div className=" absolute size-fit font-Poppins flex flex-col items-center gap-3 m-2 -translate-y-14">
         <h1 className=" uppercase font-light text-white text-5xl text-nowrap mx-2">

@@ -11,7 +11,7 @@ import { HashLink as Link } from "react-router-hash-link";
 
 export default function Footer() {
   return (
-    <section className=" bg-black/85 text-gray-300 h-60 flex flex-col items-center justify-center">
+    <section className=" w-full h-fit py-10 bg-black/85 text-gray-300 flex flex-col items-center justify-center">
       <div className=" flex gap-1">
         <div className=" bg-black size-12 flex items-center justify-center">
           <FaFacebookF className=" text-2xl" />
@@ -43,8 +43,8 @@ export default function Footer() {
           Beam me up, Scooty!
         </h4>
       </div>
-      <div className="flex items-center gap-1 text-white mt-0.5">
-        <FaRegCopyright className=" text-gray-300" />
+      <div className="flex items-center justify-center gap-1.5 text-white mt-0.5">
+        <FaRegCopyright className=" text-gray-300 text-xs" />
         <h2 className=" text-sm font-thin capitalize">herve kouam 2023</h2>
       </div>
     </section>

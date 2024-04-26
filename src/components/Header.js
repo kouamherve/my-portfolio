@@ -12,7 +12,7 @@ export default function Header() {
 
   return (
     <div className=" w-full fixed z-30">
-      <nav className=" bg-black text-white flex items-center justify-between p-3 ">
+      <nav className=" bg-black text-white flex items-center justify-between p-3 overflow-x-hidden">
         <Link
           to="#home"
           smooth
@@ -28,7 +28,7 @@ export default function Header() {
         {isShow ? (
           <MdClose
             onClick={onShowMenu}
-            className=" text-xl mr-3 cursor-pointer"
+            className=" text-3xl mr-3 cursor-pointer"
           />
         ) : (
           <GiHamburgerMenu

@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         Poppins: "Poppins",
       },
+      backgroundImage: {
+        "home-page": "url('./assets/home.jpg')",
+      },
     },
   },
   plugins: [],
