@@ -11,7 +11,7 @@ export default function Passion() {
         <div className="mx-8 text-center">
           <h1 className=" text-4xl uppercase font-normal">What I do</h1>
 
-          <div className="bg-violet-100 p-6 shadow-md size-fit flex flex-col items-center justify-center mt-8 mb-20 rounded-md">
+          <div className="bg-violet-100 p-6 shadow-md size-fit flex flex-col items-center justify-center my-20 rounded-md">
             <div className=" bg-violet-700 size-24 flex items-center justify-center rounded-full shadow-sm ">
               <FaCode className=" text-4xl text-white " />
             </div>

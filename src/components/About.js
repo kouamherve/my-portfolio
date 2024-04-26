@@ -10,10 +10,10 @@ export default function About() {
         </h1>
         <img
           className=" size-60 rounded-full object-cover"
-          src="photo.JPG"
+          src="photo.jpg"
           alt="Profile"
         />
-        <div className=" text-gray-600 text-start font-light leading-7 space-y-6 p-6">
+        <div className=" text-gray-600 text-start font-light leading-7 space-y-6 py-6 px-4">
           <p>
             Hey! my name is Herve Kouam and I'm a web developer with a passion
             for{" "}

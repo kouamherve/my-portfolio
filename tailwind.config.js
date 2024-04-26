@@ -7,8 +7,8 @@ module.exports = {
         Poppins: "Poppins",
       },
       backgroundImage: {
-        "home-page": "url('./assets/home.jpg')",
-        "resume-img": "url('./assets/resume.jpg')",
+        "home-page": "url('./images/home.jpg')",
+        "resume-img": "url('./images/resume.jpg')",
       },
     },
   },

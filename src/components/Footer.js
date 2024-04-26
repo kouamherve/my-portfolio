@@ -11,27 +11,27 @@ import { HashLink as Link } from "react-router-hash-link";
 
 export default function Footer() {
   return (
-    <section className=" w-full h-fit py-10 bg-black/85 text-gray-300 flex flex-col items-center justify-center">
+    <section className=" w-full h-fit py-10 bg-black/85 text-gray-300 flex flex-col items-center justify-center overflow-x-hidden">
       <div className=" flex gap-1">
-        <div className=" bg-black size-12 flex items-center justify-center">
+        <div className=" bg-black size-10 flex items-center justify-center">
           <FaFacebookF className=" text-2xl" />
         </div>
-        <div className=" bg-black size-12 flex items-center justify-center">
+        <div className=" bg-black size-10 flex items-center justify-center">
           <FaXTwitter className=" text-2xl" />
         </div>
-        <div className=" bg-black size-12 flex items-center justify-center">
+        <div className=" bg-black size-10 flex items-center justify-center">
           <FaInstagram className=" text-2xl" />
         </div>
-        <div className=" bg-black size-12 flex items-center justify-center">
+        <div className=" bg-black size-10 flex items-center justify-center">
           <FaCodepen className=" text-2xl" />
         </div>
-        <div className=" bg-black size-12 flex items-center justify-center">
+        <div className=" bg-black size-10 flex items-center justify-center">
           <FaGithubSquare className=" text-2xl" />
         </div>
-        <div className=" bg-black size-12 flex items-center justify-center">
+        <div className=" bg-black size-10 flex items-center justify-center">
           <FaLinkedinIn className=" text-2xl" />
         </div>
-        <div className=" bg-black size-12 flex items-center justify-center">
+        <div className=" bg-black size-10 flex items-center justify-center">
           <FaSpotify className=" text-2xl" />
         </div>
       </div>
