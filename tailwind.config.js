@@ -8,6 +8,7 @@ module.exports = {
       },
       backgroundImage: {
         "home-page": "url('./assets/home.jpg')",
+        "resume-img": "url('./assets/resume.jpg')",
       },
     },
   },

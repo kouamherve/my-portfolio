@@ -3,12 +3,15 @@ import { GrPersonalComputer } from "react-icons/gr";
 
 export default function Passion() {
   return (
-    <section id="passion" className=" bg-violet-100/25 font-Poppins pt-20 pb-4">
+    <section
+      id="passion"
+      className=" bg-violet-100/25 font-Poppins pt-20 pb-4 mt-20"
+    >
       <div className="max-w-md mx-auto">
         <div className="mx-8 text-center">
           <h1 className=" text-4xl uppercase font-normal">What I do</h1>
 
-          <div className="bg-violet-100 p-6 shadow-md size-fit flex flex-col items-center justify-center my-20 rounded-md">
+          <div className="bg-violet-100 p-6 shadow-md size-fit flex flex-col items-center justify-center mt-8 mb-20 rounded-md">
             <div className=" bg-violet-700 size-24 flex items-center justify-center rounded-full shadow-sm ">
               <FaCode className=" text-4xl text-white " />
             </div>
@@ -42,11 +45,11 @@ export default function Passion() {
               </p>
             </div>
           </div>
-          <div className="bg-violet-100 p-6 shadow-md size-fit flex flex-col items-center justify-center my-20 rounded-md">
+          <div className="bg-violet-100 p-6 shadow-md size-fit flex flex-col items-center justify-center mt-20 rounded-md">
             <div className=" bg-violet-700 size-24 flex items-center justify-center rounded-full shadow-sm ">
               <FaCode className=" text-4xl text-white " />
             </div>
-            <div className=" text-center my-5">
+            <div className=" text-center mt-5">
               <h2 className=" uppercase font-medium text-lg tracking-wider">
                 Development
               </h2>

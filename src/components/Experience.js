@@ -19,12 +19,10 @@ import { Link } from "react-router-dom";
 
 export default function Experience() {
   return (
-    <section id="experience" className="mt-4">
+    <section id="experience" className="">
       <div className="font-Poppins text-center">
         <div className="p-8">
-          <h1 className="text-4xl uppercase font-normal mt-5 mb-8">
-            Experience
-          </h1>
+          <h1 className="text-4xl uppercase font-normal my-8">Experience</h1>
           <p className="text-gray-600 text-center text-md font-normal leading-7 mb-5 p-6">
             I've been doing web development for about 3 years now, and I'm
             always eager to learn more in this fast paced industry.
@@ -32,10 +30,10 @@ export default function Experience() {
           <hr />
         </div>
         <div>
-          <h2 className=" text-lg uppercase mt-24 mb-20 font-medium tracking-wider">
+          <h2 className=" text-lg uppercase my-10 font-medium tracking-wider">
             Some technologies I've worked with:
           </h2>
-          <div className=" text-gray-500 text-7xl flex flex-wrap gap-16 items-center justify-center mb-40">
+          <div className=" text-gray-500 text-7xl flex flex-wrap gap-16 items-center justify-center mb-24">
             <div>
               <h4 className="text-[9px]">HTML</h4>
               <FaHtml5 className="hover:text-orange-400" />
@@ -111,9 +109,9 @@ export default function Experience() {
           </div>
         </div>
 
-        <div className="flex items-center justify-center mb-20 bg-[url('https://cdn.pixabay.com/photo/2016/11/19/15/32/laptop-1839876_1280.jpg')] bg-cover bg-center bg-black/75 bg-blend-darken h-72 bg-fixed">
+        <div className="flex items-center justify-center mb-10 bg-resume-img bg-cover bg-center bg-black/75 bg-blend-darken h-60 bg-fixed overflow-x-hidden">
           <div className=" text-white  ">
-            <h1 className=" text-3xl uppercase font-light tracking-wider">
+            <h1 className=" text-2xl uppercase font-light tracking-wider">
               Check out my résumé!
             </h1>
             <button className=" bg-transparent hover:bg-gray-600/50 border border-white px-5 hover:px-7 py-3 mt-10 capitalize text-md font-light rounded shadow ">
