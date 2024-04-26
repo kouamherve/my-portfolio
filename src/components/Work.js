@@ -1,5 +1,5 @@
 import { HashLink as Link } from "react-router-hash-link";
-import { SiMinutemailer } from "react-icons/si";
+import Contact from "./Contact";
 
 export default function Work() {
   return (
@@ -167,20 +167,7 @@ export default function Work() {
             </Link>
           </div>
         </div>
-        <div
-          id="contact"
-          className=" bg-gray-100 flex flex-col items-center justify-center mt-20 mb-0 p-8"
-        >
-          <SiMinutemailer className=" text-7xl text-gray-500 my-4" />
-          <h1 className=" text-3xl uppercase tracking-wider">Get in touch!</h1>
-          <p className=" text-gray-600 p-8 font-normal">
-            Whether you have an idea for a project or just want to chat, feel
-            free to shoot me an email!
-          </p>
-          <button className=" mb-5 text-black hover:text-white shadow bg-transparent capitalize text-md px-5 py-2 border-2 border-black hover:border-violet-600 hover:bg-violet-600 rounded-md">
-            Say hello
-          </button>
-        </div>
+        <Contact />
       </div>
     </section>
   );
