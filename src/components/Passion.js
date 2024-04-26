@@ -9,8 +9,8 @@ export default function Passion() {
           <h1 className=" text-4xl uppercase font-normal">What I do</h1>
 
           <div className="bg-violet-100 p-6 shadow-md size-fit flex flex-col items-center justify-center my-20 rounded-md">
-            <div className=" bg-violet-700 size-40 flex items-center justify-center rounded-full shadow-sm ">
-              <FaCode className=" text-7xl text-white " />
+            <div className=" bg-violet-700 size-24 flex items-center justify-center rounded-full shadow-sm ">
+              <FaCode className=" text-4xl text-white " />
             </div>
             <div className=" text-center my-5">
               <h2 className=" uppercase font-medium text-lg tracking-wider">
@@ -26,8 +26,8 @@ export default function Passion() {
             </div>
           </div>
           <div className="bg-violet-100 p-6 shadow-md size-fit flex flex-col items-center justify-center my-20 rounded-md">
-            <div className=" bg-violet-700 size-40 flex items-center justify-center rounded-full shadow-sm ">
-              <GrPersonalComputer className=" text-7xl text-white " />
+            <div className=" bg-violet-700 size-24 flex items-center justify-center rounded-full shadow-sm ">
+              <GrPersonalComputer className=" text-4xl text-white " />
             </div>
             <div className=" text-center my-5">
               <h2 className=" uppercase font-medium text-lg tracking-wider">
@@ -43,8 +43,8 @@ export default function Passion() {
             </div>
           </div>
           <div className="bg-violet-100 p-6 shadow-md size-fit flex flex-col items-center justify-center my-20 rounded-md">
-            <div className=" bg-violet-700 size-40 flex items-center justify-center rounded-full shadow-sm ">
-              <FaCode className=" text-7xl text-white " />
+            <div className=" bg-violet-700 size-24 flex items-center justify-center rounded-full shadow-sm ">
+              <FaCode className=" text-4xl text-white " />
             </div>
             <div className=" text-center my-5">
               <h2 className=" uppercase font-medium text-lg tracking-wider">
