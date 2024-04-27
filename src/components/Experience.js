@@ -1,21 +1,5 @@
-import { IoLogoCss3, IoLogoFigma } from "react-icons/io5";
-import {
-  TbBrandJavascript,
-  TbBrandVscode,
-  TbBrandVercel,
-} from "react-icons/tb";
-import { SiTailwindcss, SiFirebase } from "react-icons/si";
-import {
-  FaJava,
-  FaReact,
-  FaGitlab,
-  FaGithub,
-  FaBootstrap,
-  FaHtml5,
-  FaTrello,
-} from "react-icons/fa";
-import { FaGitAlt } from "react-icons/fa6";
 import { Link } from "react-router-dom";
+import CardTech from "./reusable-ui/CardTech";
 
 export default function Experience() {
   return (
@@ -30,70 +14,21 @@ export default function Experience() {
           <hr />
         </div>
         <div>
-          <h2 className=" text-lg uppercase my-10 font-medium tracking-wider">
+          <h2 className=" text-lg uppercase mt-5 mb-10 font-medium">
             Some technologies I've worked with:
           </h2>
-          <div className=" text-gray-500 text-7xl flex flex-wrap gap-16 items-center justify-center mb-24">
-            <div>
-              <h4 className="text-[9px]">HTML</h4>
-              <FaHtml5 className="hover:text-orange-400" />
-            </div>
-            <div>
-              <h4 className="text-[9px]">CSS</h4>
-              <IoLogoCss3 className=" hover:text-sky-400" />
-            </div>
-            <div>
-              <h4 className="text-[9px]">JS</h4>
-              <TbBrandJavascript />
-            </div>
-            <div>
-              <h4 className="text-[9px]">JAVA</h4>
-              <FaJava />
-            </div>
-            <div>
-              <h4 className="text-[9px]">BOOTSTRAP</h4>
-              <FaBootstrap />
-            </div>
-            <div>
-              <h4 className="text-[9px]">GIT</h4>
-              <FaGitAlt />
-            </div>
-            <div>
-              <h4 className="text-[9px]">TRELLO</h4>
-              <FaTrello />
-            </div>
-            <div>
-              <h4 className="text-[9px]">REACT</h4>
-              <FaReact />
-            </div>
-            <div>
-              <h4 className="text-[9px]">FIGMA</h4>
-              <IoLogoFigma />
-            </div>
-            <div>
-              <h4 className="text-[9px]">TAILWIND</h4>
-              <SiTailwindcss />
-            </div>
-            <div>
-              <h4 className="text-[9px]">GITHUB</h4>
-              <FaGithub />
-            </div>
-            <div>
-              <h4 className="text-[9px]">GITLAB</h4>
-              <FaGitlab />
-            </div>
-            <div>
-              <h4 className="text-[9px]">FIREBASE</h4>
-              <SiFirebase />
-            </div>
-            <div>
-              <h4 className="text-[9px]">VS CODE</h4>
-              <TbBrandVscode />
-            </div>
-            <div>
-              <h4 className="text-[9px]">VERCEL</h4>
-              <TbBrandVercel />
-            </div>
+          <div className=" text-gray-500 text-7xl flex flex-wrap gap-16 items-center justify-center mb-24 mx-2">
+            <CardTech iconName="html" title="HTML" />
+            <CardTech iconName="css" title="CSS" />
+            <CardTech iconName="tailwindcss" title="TAILWINDCSS" />
+            <CardTech iconName="figma" title="FIGMA" />
+            <CardTech iconName="firebase" title="FIREBASE" />
+            <CardTech iconName="java" title="JAVA" />
+            <CardTech iconName="react-native" title="REACT" />
+            <CardTech iconName="trello" title="TRELLO" />
+            <CardTech iconName="git" title="GIT" />
+            <CardTech iconName="github" title="GITHUB" />
+            <CardTech iconName="bootstrap" title="BOOTSTRAP" />
           </div>{" "}
           <div className="mb-10 flex flex-col items-center">
             <h2 className=" text-base uppercase font-medium tracking-wider">

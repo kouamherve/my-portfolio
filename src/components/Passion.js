@@ -11,11 +11,11 @@ export default function Passion() {
         <div className="mx-8 text-center">
           <h1 className=" text-4xl uppercase font-normal">What I do</h1>
 
-          <div className="bg-violet-100 p-6 shadow-md size-fit flex flex-col items-center justify-center my-20 rounded-md">
+          <div className="bg-violet-100 p-6 shadow-md size-fit flex flex-col items-center justify-center my-10 rounded-md">
             <div className=" bg-violet-700 size-24 flex items-center justify-center rounded-full shadow-sm ">
               <FaCode className=" text-4xl text-white " />
             </div>
-            <div className=" text-center my-5">
+            <div className=" text-center my-3">
               <h2 className=" uppercase font-medium text-lg tracking-wider">
                 Development
               </h2>
@@ -28,11 +28,11 @@ export default function Passion() {
               </p>
             </div>
           </div>
-          <div className="bg-violet-100 p-6 shadow-md size-fit flex flex-col items-center justify-center my-20 rounded-md">
+          <div className="bg-violet-100 p-6 shadow-md size-fit flex flex-col items-center justify-center my-10 rounded-md">
             <div className=" bg-violet-700 size-24 flex items-center justify-center rounded-full shadow-sm ">
               <GrPersonalComputer className=" text-4xl text-white " />
             </div>
-            <div className=" text-center my-5">
+            <div className=" text-center my-3">
               <h2 className=" uppercase font-medium text-lg tracking-wider">
                 Design
               </h2>
@@ -45,11 +45,11 @@ export default function Passion() {
               </p>
             </div>
           </div>
-          <div className="bg-violet-100 p-6 shadow-md size-fit flex flex-col items-center justify-center mt-20 rounded-md">
+          <div className="bg-violet-100 p-6 shadow-md size-fit flex flex-col items-center justify-center mt-10 rounded-md">
             <div className=" bg-violet-700 size-24 flex items-center justify-center rounded-full shadow-sm ">
               <FaCode className=" text-4xl text-white " />
             </div>
-            <div className=" text-center mt-5">
+            <div className=" text-center my-3">
               <h2 className=" uppercase font-medium text-lg tracking-wider">
                 Development
               </h2>
