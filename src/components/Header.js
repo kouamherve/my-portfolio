@@ -2,6 +2,7 @@ import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
 import { HashLink as Link } from "react-router-hash-link";
+import Icon from "./reusable-ui/Icon";
 
 export default function Header() {
   const [isShow, setIsShow] = useState(false);
@@ -26,15 +27,9 @@ export default function Header() {
           <span>herve kouam</span>
         </Link>
         {isShow ? (
-          <MdClose
-            onClick={onShowMenu}
-            className=" text-3xl mr-3 cursor-pointer"
-          />
+          <Icon IconName={MdClose} onShowMenu={onShowMenu} />
         ) : (
-          <GiHamburgerMenu
-            className=" text-3xl mr-3 cursor-pointer"
-            onClick={onShowMenu}
-          />
+          <Icon IconName={GiHamburgerMenu} onShowMenu={onShowMenu} />
         )}
       </nav>
       <div className={`bg-black ${isShow ? "" : "hidden"}`}>
