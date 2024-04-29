@@ -5,15 +5,15 @@ export default function About() {
   return (
     <section className=" max-w-lg mx-auto font-Poppins" id="about">
       <div className=" flex flex-col items-center gap-8">
-        <h1 className=" uppercase text-4xl font-normal mb-2 mt-16">
+        <h1 className=" uppercase text-2xl font-normal mb-2 mt-16">
           A litle bit about me
         </h1>
         <img
-          className=" size-60 rounded-full object-cover"
+          className=" size-52 rounded-full object-cover"
           src="photo.jpg"
           alt="Profile"
         />
-        <div className=" text-gray-600 text-start font-light leading-7 space-y-6 py-6 px-4">
+        <div className=" text-gray-600 text-center font-light leading-7 space-y-6 py-6 px-4">
           <p>
             Hey! my name is Herve Kouam and I'm a web developer with a passion
             for{" "}

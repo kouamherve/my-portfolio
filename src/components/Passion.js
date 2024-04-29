@@ -5,17 +5,17 @@ export default function Passion() {
   return (
     <section
       id="passion"
-      className=" bg-violet-100/25 font-Poppins pt-20 pb-4 mt-20"
+      className=" bg-gray-100 font-Poppins pt-20 pb-4 mt-20"
     >
       <div className="max-w-md mx-auto">
         <div className="mx-8 text-center">
-          <h1 className=" text-4xl uppercase font-normal">What I do</h1>
+          <h1 className=" text-2xl uppercase font-normal">What I do</h1>
 
-          <div className="bg-violet-100 p-6 shadow-md size-fit flex flex-col items-center justify-center my-10 rounded-md">
-            <div className=" bg-violet-700 size-24 flex items-center justify-center rounded-full shadow-sm ">
-              <FaCode className=" text-4xl text-white " />
+          <div className=" p-6 size-fit flex flex-col items-center justify-center my-10">
+            <div className=" bg-violet-700 size-44 flex items-center justify-center rounded-full">
+              <FaCode className=" text-6xl text-white " />
             </div>
-            <div className=" text-center my-3">
+            <div className=" text-center my-6">
               <h2 className=" uppercase font-medium text-lg tracking-wider">
                 Development
               </h2>
@@ -28,11 +28,11 @@ export default function Passion() {
               </p>
             </div>
           </div>
-          <div className="bg-violet-100 p-6 shadow-md size-fit flex flex-col items-center justify-center my-10 rounded-md">
-            <div className=" bg-violet-700 size-24 flex items-center justify-center rounded-full shadow-sm ">
-              <GrPersonalComputer className=" text-4xl text-white " />
+          <div className="p-6 size-fit flex flex-col items-center justify-center my-10">
+            <div className=" bg-violet-700 size-44 flex items-center justify-center rounded-full">
+              <GrPersonalComputer className=" text-6xl text-white " />
             </div>
-            <div className=" text-center my-3">
+            <div className=" text-center my-6">
               <h2 className=" uppercase font-medium text-lg tracking-wider">
                 Design
               </h2>
@@ -45,11 +45,11 @@ export default function Passion() {
               </p>
             </div>
           </div>
-          <div className="bg-violet-100 p-6 shadow-md size-fit flex flex-col items-center justify-center mt-10 rounded-md">
-            <div className=" bg-violet-700 size-24 flex items-center justify-center rounded-full shadow-sm ">
-              <FaCode className=" text-4xl text-white " />
+          <div className="p-6 size-fit flex flex-col items-center justify-center mt-10">
+            <div className=" bg-violet-700 size-44 flex items-center justify-center rounded-full ">
+              <FaCode className=" text-6xl text-white " />
             </div>
-            <div className=" text-center my-3">
+            <div className=" text-center my-6">
               <h2 className=" uppercase font-medium text-lg tracking-wider">
                 Development
               </h2>

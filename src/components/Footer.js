@@ -1,39 +1,37 @@
-import {
-  FaFacebookF,
-  FaInstagram,
-  FaGithubSquare,
-  FaLinkedinIn,
-  FaRegCopyright,
-} from "react-icons/fa";
-import { FaXTwitter, FaCodepen, FaSpotify } from "react-icons/fa6";
+import { FaRegCopyright } from "react-icons/fa";
+
 import { BsRocket } from "react-icons/bs";
 import { HashLink as Link } from "react-router-hash-link";
 
 export default function Footer() {
   return (
-    <section className=" w-full h-fit py-10 bg-black/85 text-gray-300 flex flex-col items-center justify-center overflow-x-hidden">
+    <section className=" w-full h-fit py-6 bg-black/85 text-gray-300 flex flex-col items-center justify-center overflow-x-hidden">
       <div className=" flex gap-1">
-        <div className=" bg-black size-10 flex items-center justify-center">
-          <FaFacebookF className=" text-2xl" />
-        </div>
-        <div className=" bg-black size-10 flex items-center justify-center">
-          <FaXTwitter className=" text-2xl" />
-        </div>
-        <div className=" bg-black size-10 flex items-center justify-center">
-          <FaInstagram className=" text-2xl" />
-        </div>
-        <div className=" bg-black size-10 flex items-center justify-center">
-          <FaCodepen className=" text-2xl" />
-        </div>
-        <div className=" bg-black size-10 flex items-center justify-center">
-          <FaGithubSquare className=" text-2xl" />
-        </div>
-        <div className=" bg-black size-10 flex items-center justify-center">
-          <FaLinkedinIn className=" text-2xl" />
-        </div>
-        <div className=" bg-black size-10 flex items-center justify-center">
-          <FaSpotify className=" text-2xl" />
-        </div>
+        <img
+          className="size-14 grayscale hover:grayscale-0"
+          src="/assets/icons/icons8-facebook-144.png"
+          alt="facebook"
+        />
+        <img
+          className="size-14 grayscale hover:grayscale-0"
+          src="/assets/icons/icons8-insta-144.png"
+          alt="facebook"
+        />
+        <img
+          className="size-14 grayscale hover:grayscale-0"
+          src="/assets/icons/icons8-github-144.png"
+          alt="facebook"
+        />
+        <img
+          className="size-14 grayscale hover:grayscale-0"
+          src="/assets/icons/icons8-linkedin-circled-144.png"
+          alt="facebook"
+        />
+        <img
+          className="size-14 grayscale hover:grayscale-0"
+          src="/assets/icons/icons8-twitter-circled-144.png"
+          alt="facebook"
+        />
       </div>
       <div className=" group/start size-fit flex flex-col items-center justify-center">
         <Link to="#home" smooth>

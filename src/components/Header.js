@@ -17,7 +17,7 @@ export default function Header() {
         <Link
           to="#home"
           smooth
-          className=" flex items-center justify-center gap-3 w-fit uppercase font-bold tracking-wider hover:text-violet-400"
+          className=" flex items-center justify-center gap-3 w-fit uppercase font-medium tracking-wider hover:text-violet-400"
         >
           <img
             className="size-8 bg-violet-600 rounded-full p-1"

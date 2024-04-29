@@ -7,8 +7,10 @@ export default function Experience() {
     <section id="experience" className="">
       <div className="font-Poppins text-center">
         <div className="p-8">
-          <h1 className="text-4xl uppercase font-normal my-8">Experience</h1>
-          <p className="text-gray-600 text-center text-md font-normal leading-7 mb-5 p-6">
+          <h1 className="text-2xl uppercase font-normal mt-8 mb-4">
+            Experience
+          </h1>
+          <p className="text-gray-600 text-center text-md font-normal leading-7 mb-2 p-6">
             I've been doing web development for about 3 years now, and I'm
             always eager to learn more in this fast paced industry.
           </p>
@@ -18,7 +20,7 @@ export default function Experience() {
           <h2 className=" text-lg uppercase mt-5 mb-10 font-medium">
             Some technologies I've worked with:
           </h2>
-          <div className=" text-gray-500 text-7xl flex flex-wrap gap-16 items-center justify-center mb-24 mx-2">
+          <div className=" text-gray-500 text-7xl flex flex-wrap gap-12 items-center justify-center mb-24 mx-2">
             <CardTech iconName="html" title="HTML" />
             <CardTech iconName="css" title="CSS" />
             <CardTech iconName="tailwindcss" title="TAILWINDCSS" />
