@@ -11,7 +11,7 @@ export default function Header() {
   };
 
   return (
-    <div className=" w-full fixed z-30">
+    <div className=" w-full fixed z-50">
       <Navbar isShow={isShow} onShowMenu={onShowMenu} />
       <div className={`bg-black ${isShow ? "" : "hidden"}`}>
         <ul className="text-white uppercase text-sm font-Poppins font-medium py-5 flex flex-col items-center justify-center gap-8">
