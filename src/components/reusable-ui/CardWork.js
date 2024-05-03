@@ -2,7 +2,7 @@ import { RiZoomInFill } from "react-icons/ri";
 import { useState } from "react";
 import Detail from "./Detail";
 
-export default function CardWork({ title, imageProjet }) {
+export default function CardWork({ title, image }) {
   const [isHover, setIsHover] = useState(false);
   const [showDetail, setShowDetail] = useState(false);
 
@@ -28,7 +28,7 @@ export default function CardWork({ title, imageProjet }) {
         <div className=" size-full">
           <img
             className=" w-full h-full object-cover object-center"
-            src={imageProjet}
+            src={image}
             alt="Project1"
           />
         </div>
@@ -53,6 +53,7 @@ export default function CardWork({ title, imageProjet }) {
           title={title}
           onClose={closeDetail}
           type="web app"
+          projetImage={image}
           projetDetails="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil libero
         tempora consequuntur accusamus aspernatur. Cumque dolorem laborum
         nisi, id necessitatibus similique, alias corrupti non iste doloremque
