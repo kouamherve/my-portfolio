@@ -1,3 +1,5 @@
+import { IoClose } from "react-icons/io5";
+
 export default function Detail({ title, onClose, type, projetDetails }) {
   return (
     <div className={`fixed z-50 inset-0 bg-white h-screen mx-4 overflow-auto`}>
@@ -6,6 +8,10 @@ export default function Detail({ title, onClose, type, projetDetails }) {
         <h3 className=" text-xs italic font-light mt-2 text-gray-500">
           {type}
         </h3>
+        <IoClose
+          onClick={onClose}
+          className=" absolute top-0 right-0 m-2 text-2xl text-gray-600 cursor-pointer"
+        />
       </div>
       <div className=" flex flex-col items-center justify-center gap-4 h-lvh">
         <img
