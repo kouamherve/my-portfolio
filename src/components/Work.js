@@ -11,11 +11,26 @@ export default function Work() {
           <h3 className=" text-xs font-thin">(more coming soon)</h3>
         </div>
         <div>
-          <CardWork />
-          <CardWork />
-          <CardWork />
-          <CardWork />
-          <CardWork />
+          <CardWork
+            title="coursesource"
+            imageProjet="https://cdn.pixabay.com/photo/2018/07/25/20/29/ecommerce-3562191_1280.jpg"
+          />
+          <CardWork
+            title="coursesource"
+            imageProjet="https://cdn.pixabay.com/photo/2018/07/25/20/29/ecommerce-3562191_1280.jpg"
+          />
+          <CardWork
+            title="coursesource"
+            imageProjet="https://cdn.pixabay.com/photo/2018/07/25/20/29/ecommerce-3562191_1280.jpg"
+          />
+          <CardWork
+            title="coursesource"
+            imageProjet="https://cdn.pixabay.com/photo/2018/07/25/20/29/ecommerce-3562191_1280.jpg"
+          />
+          <CardWork
+            title="coursesource"
+            imageProjet="https://cdn.pixabay.com/photo/2018/07/25/20/29/ecommerce-3562191_1280.jpg"
+          />
         </div>
       </div>
     </section>
