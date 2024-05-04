@@ -3,7 +3,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
 import Icon from "./reusable-ui/Icon";
 
-export default function Navbar({ isShow, onShowMenu }) {
+export default function Navbar({ isOpen, onClic }) {
   return (
     <nav className=" bg-black text-white flex items-center justify-between p-3 overflow-x-hidden">
       <Link
@@ -18,10 +18,10 @@ export default function Navbar({ isShow, onShowMenu }) {
         />
         <span>herve kouam</span>
       </Link>
-      {isShow ? (
-        <Icon IconName={MdClose} onShowMenu={onShowMenu} />
+      {isOpen ? (
+        <Icon IconName={MdClose} onClic={onClic} />
       ) : (
-        <Icon IconName={GiHamburgerMenu} onShowMenu={onShowMenu} />
+        <Icon IconName={GiHamburgerMenu} onClic={onClic} />
       )}
     </nav>
   );

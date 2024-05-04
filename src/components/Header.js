@@ -4,16 +4,16 @@ import { HashLink as Link } from "react-router-hash-link";
 import Navbar from "./Navbar";
 
 export default function Header() {
-  const [isShow, setIsShow] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
-  const onShowMenu = () => {
-    setIsShow(!isShow);
+  const handleClick = () => {
+    setIsOpen(!isOpen);
   };
 
   return (
-    <div className=" w-full fixed z-50">
-      <Navbar isShow={isShow} onShowMenu={onShowMenu} />
-      <div className={`bg-black ${isShow ? "" : "hidden"}`}>
+    <div id="navbar" className="navbar">
+      <Navbar isOpen={isOpen} onClic={handleClick} />
+      <div className={`bg-black ${isOpen ? "bloc" : "hidden"}`}>
         <ul className="text-white uppercase text-sm font-Poppins font-medium py-5 flex flex-col items-center justify-center gap-8">
           <li className=" hover:text-violet-400">
             <Link to="#about" smooth>

@@ -24,7 +24,7 @@ export default function CardWork({ title, image }) {
       onMouseEnter={() => setIsHover(true)}
       onMouseLeave={() => setIsHover(false)}
     >
-      <div className=" relative flex w-full h-56 rounded border border-black">
+      <div className=" relative flex w-full h-44 rounded border border-black">
         <div className=" size-full">
           <img
             className=" w-full h-full object-cover object-center"

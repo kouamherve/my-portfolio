@@ -3,7 +3,7 @@ import { MdLibraryMusic } from "react-icons/md";
 
 export default function About() {
   return (
-    <section className=" max-w-lg mx-auto font-Poppins" id="about">
+    <section className=" max-w-md mx-auto font-Poppins" id="about">
       <div className=" flex flex-col items-center gap-8">
         <h1 className=" uppercase text-2xl font-normal mb-2 mt-16">
           A litle bit about me
@@ -37,7 +37,7 @@ export default function About() {
             petting dogs.
           </p>
         </div>
-        <div className=" bg-gray-100 w-80 p-4 text-gray-500 rounded-lg">
+        <div className=" bg-gray-100 mx-4 p-4 text-gray-500 rounded">
           <h2 className=" uppercase text-center font-normal text-base">
             tl;dr? self proclamations:
           </h2>

@@ -8,7 +8,7 @@ export default function Work() {
           <h1 className="text-2xl uppercase font-normal mt-16 mb-2">
             What I've done
           </h1>
-          <h3 className=" text-xs font-thin">(more coming soon)</h3>
+          <h3 className=" text-xs font-light">(more coming soon)</h3>
         </div>
         <div>
           <CardWork
