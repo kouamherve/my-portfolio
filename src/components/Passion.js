@@ -7,7 +7,7 @@ export default function Passion() {
       id="passion"
       className=" bg-gray-100 font-Poppins pt-20 pb-4 mt-20"
     >
-      <div className="max-w-md mx-auto">
+      <div className="w-full mx-auto">
         <div className="mx-8 text-center ">
           <h1 className=" text-2xl uppercase font-normal">What I do</h1>
 
