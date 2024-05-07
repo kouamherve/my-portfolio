@@ -5,12 +5,12 @@ export default function Home() {
   return (
     <section
       id="homepage"
-      className="relative h-screen w-full flex items-center justify-center bg-home-page bg-cover bg-center bg-black/50 bg-blend-darken bg-fixed overflow-x-hidden"
+      className="relative h-screen w-full overflow-x-hidden flex items-center justify-center bg-home-page bg-cover bg-center bg-black/65 bg-blend-darken bg-fixed "
     >
-      <div className=" absolute size-fit font-Poppins flex flex-col items-center gap-3 m-2 -translate-y-0">
-        <h1 className="uppercase font-light text-white text-4xl leading-4 text-nowrap mx-2">
+      <div className=" absolute size-fit font-Poppins flex flex-col items-center gap-3">
+        <h1 className="uppercase text-white text-4xl tracking-wider text-nowrap mx-2 md:text-6xl md:mx-0">
           Hi, I'm{" "}
-          <span className="text-black font-medium ">
+          <span className="text-black md:space-x-2">
             <span className=" bg-white mx-0.5 px-1 py-0 rounded-md shadow ">
               h
             </span>
@@ -27,7 +27,7 @@ export default function Home() {
               e
             </span>
           </span>{" "}
-          <span className="text-black font-medium hidden ">
+          <span className="text-black hidden ">
             <span className=" bg-white mx-0.5 px-1 py-0 rounded-md shadow ">
               k
             </span>
@@ -48,9 +48,9 @@ export default function Home() {
         <h2 className="text-gray-200 text-md mt-5 capitalize">
           front-end Web developer
         </h2>
-        <div className="size-14">
+        <div className=" translate-y-10 md:translate-y-32 md:mt-20">
           <Link to="#about" smooth>
-            <FaAngleDown className="size-full text-black/75 rounded-full mt-10 cursor-pointer bg-gray-300 hover:bg-gray-400 active:bg-gray-500" />
+            <FaAngleDown className=" text-5xl text-black/75 rounded-full cursor-pointer bg-gray-300 hover:bg-gray-400 active:bg-gray-500" />
           </Link>
         </div>
       </div>
