@@ -7,13 +7,13 @@ export default function Passion() {
       id="passion"
       className=" bg-gray-100 font-Poppins pt-20 pb-4 mt-20"
     >
-      <div className="max-w-md mx-auto">
-        <div className="mx-8 text-center">
+      <div className="w-full mx-auto">
+        <div className="mx-8 text-center ">
           <h1 className=" text-2xl uppercase font-normal">What I do</h1>
 
-          <div className=" p-6 size-fit flex flex-col items-center justify-center my-10">
-            <div className=" bg-violet-700 size-44 flex items-center justify-center rounded-full">
-              <FaCode className=" text-6xl text-white " />
+          <div className="size-fit flex flex-col items-center justify-center mt-14 space-y-6">
+            <div className=" bg-violet-700 size-32 flex items-center justify-center rounded-full">
+              <FaCode className=" text-5xl text-white " />
             </div>
             <div className=" text-center my-6">
               <h2 className=" uppercase font-medium text-lg tracking-wider">
@@ -28,9 +28,9 @@ export default function Passion() {
               </p>
             </div>
           </div>
-          <div className="p-6 size-fit flex flex-col items-center justify-center my-10">
-            <div className=" bg-violet-700 size-44 flex items-center justify-center rounded-full">
-              <GrPersonalComputer className=" text-6xl text-white " />
+          <div className="size-fit flex flex-col items-center justify-center my-10">
+            <div className=" bg-violet-700 size-32 flex items-center justify-center rounded-full">
+              <GrPersonalComputer className=" text-5xl text-white " />
             </div>
             <div className=" text-center my-6">
               <h2 className=" uppercase font-medium text-lg tracking-wider">
@@ -45,9 +45,9 @@ export default function Passion() {
               </p>
             </div>
           </div>
-          <div className="p-6 size-fit flex flex-col items-center justify-center mt-10">
-            <div className=" bg-violet-700 size-44 flex items-center justify-center rounded-full ">
-              <FaCode className=" text-6xl text-white " />
+          <div className="size-fit flex flex-col items-center justify-center mt-10">
+            <div className=" bg-violet-700 size-32 flex items-center justify-center rounded-full ">
+              <FaCode className=" text-5xl text-white " />
             </div>
             <div className=" text-center my-6">
               <h2 className=" uppercase font-medium text-lg tracking-wider">
