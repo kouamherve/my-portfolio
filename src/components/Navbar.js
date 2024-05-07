@@ -5,11 +5,11 @@ import Icon from "./reusable-ui/Icon";
 
 export default function Navbar({ isOpen, onClic }) {
   return (
-    <nav className=" bg-black text-white flex items-center justify-between p-3 overflow-x-hidden">
+    <nav className=" bg-black text-white px-4 py-3 flex items-center justify-between overflow-x-hidden md:px-8">
       <Link
         to="#home"
         smooth
-        className=" flex items-center justify-center gap-3 w-fit uppercase font-medium tracking-wider hover:text-violet-400"
+        className=" flex items-center justify-center gap-3 w-fit uppercase tracking-wider hover:text-violet-400"
       >
         <img
           className="size-8 bg-violet-600 rounded-full p-1"
@@ -23,6 +23,33 @@ export default function Navbar({ isOpen, onClic }) {
       ) : (
         <Icon IconName={GiHamburgerMenu} onClic={onClic} />
       )}
+      <ul className="hidden  text-white text-sm font-Poppins uppercase items-center justify-center gap-6 md:flex ">
+        <li className=" hover:text-violet-400">
+          <Link to="#about" smooth>
+            about
+          </Link>
+        </li>
+        <li className=" hover:text-violet-400">
+          <Link to="#passion" smooth>
+            passion
+          </Link>
+        </li>
+        <li className=" hover:text-violet-400">
+          <Link to="#experience" smooth>
+            experience
+          </Link>
+        </li>
+        <li className=" hover:text-violet-400">
+          <Link to="#work" smooth>
+            work
+          </Link>
+        </li>
+        <li className=" hover:text-violet-400">
+          <Link to="#contact" smooth>
+            contact
+          </Link>
+        </li>
+      </ul>
     </nav>
   );
 }
