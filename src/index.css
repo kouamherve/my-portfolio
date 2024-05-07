@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer components {
-  .navbar {
+  .header {
     @apply w-full fixed z-50;
   }
 }

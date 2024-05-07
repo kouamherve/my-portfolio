@@ -3,11 +3,15 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
 import Icon from "./reusable-ui/Icon";
 
-export default function Navbar({ isOpen, onClic }) {
+export default function Navbar({ isOpen, onClic, navBg, isHeader }) {
   return (
-    <nav className=" bg-black text-white px-4 py-3 flex items-center justify-between overflow-x-hidden md:px-8">
+    <nav
+      className={`${
+        navBg && isHeader ? "bg-black py-3" : "bg-transparent py-5"
+      }  px-4  text-white flex items-center justify-between overflow-x-hidden md:px-8`}
+    >
       <Link
-        to="#home"
+        to="#homepage"
         smooth
         className=" flex items-center justify-center gap-3 w-fit uppercase tracking-wider hover:text-violet-400"
       >
