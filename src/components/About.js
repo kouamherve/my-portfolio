@@ -5,7 +5,7 @@ export default function About() {
   return (
     <section className=" w-full mx-auto font-Poppins" id="about">
       <div className=" flex flex-col items-center gap-8 pt-24">
-        <h1 className=" uppercase tracking-wider text-2xl md:text-3xl text-gray-600 ">
+        <h1 className=" uppercase tracking-wider text-2xl md:text-3xl text-black ">
           A litle bit about me
         </h1>
         <img
