@@ -28,7 +28,12 @@ export default function Navbar({ isOpen, onClic, navBg, isHeader }) {
         <Icon IconName={GiHamburgerMenu} onClic={onClic} />
       )}
       <ul className="hidden  text-white text-sm font-Poppins uppercase items-center justify-center gap-6 md:flex ">
-        <li className=" hover:text-violet-400">
+        <li
+        // onClick={() => setActiveSection("about")}
+        // className={`${
+        //   activeSection === "about" ? "bg-gray-300 px-5 py-2" : ""
+        // } hover:text-violet-400 overflow-hidden`}
+        >
           <Link to="#about" smooth>
             about
           </Link>

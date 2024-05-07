@@ -4,16 +4,16 @@ import { MdLibraryMusic } from "react-icons/md";
 export default function About() {
   return (
     <section className=" w-full mx-auto font-Poppins" id="about">
-      <div className=" flex flex-col items-center gap-8 pt-16">
-        <h1 className=" uppercase text-2xl font-normal ">
+      <div className=" flex flex-col items-center gap-8 pt-24">
+        <h1 className=" uppercase tracking-wider text-2xl md:text-3xl text-gray-600 ">
           A litle bit about me
         </h1>
         <img
-          className=" size-48 rounded-full object-cover"
+          className=" size-44 rounded-full object-cover"
           src="photo.jpg"
           alt="Profile"
         />
-        <div className=" text-gray-600 text-center font-light leading-7 space-y-6 py-6 px-5">
+        <div className=" text-gray-500 text-center text-md leading-8 space-y-6 my-3 px-8">
           <p>
             Hey! my name is Herve Kouam and I'm a web developer with a passion
             for{" "}
@@ -37,18 +37,20 @@ export default function About() {
             petting dogs.
           </p>
         </div>
-        <div className=" bg-gray-100 mx-4 p-4 text-gray-500 rounded">
-          <h2 className=" uppercase text-center font-normal text-base">
-            tl;dr? self proclamations:
-          </h2>
-          <div className="flex items-center justify-between mt-10 mx-4">
-            <div className="flex flex-col gap-1 items-center">
-              <FaKeyboard className=" text-3xl " />
-              <h4 className=" text-sm ">web developer</h4>
-            </div>
-            <div className="flex flex-col gap-1 items-center">
-              <MdLibraryMusic className=" text-3xl " />
-              <h4 className=" text-sm ">music producer</h4>
+        <div className="flex items-center justify-center w-full px-8 md:px-40">
+          <div className=" bg-gray-100 mx-4 py-6 text-gray-500 rounded w-full">
+            <h2 className=" uppercase text-center font-light text-base md:text-xl">
+              tl;dr? self proclamations:
+            </h2>
+            <div className="flex items-center justify-between mt-10 mx-4">
+              <div className="flex flex-col gap-1 items-center">
+                <FaKeyboard className=" text-3xl md:text-4xl " />
+                <h4 className=" text-sm md:text-md ">web developer</h4>
+              </div>
+              <div className="flex flex-col gap-1 items-center">
+                <MdLibraryMusic className=" text-3xl md:text-4xl " />
+                <h4 className=" text-sm md:text-md ">music producer</h4>
+              </div>
             </div>
           </div>
         </div>

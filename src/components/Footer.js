@@ -34,7 +34,7 @@ export default function Footer() {
         />
       </div>
       <div className=" group/start size-fit flex flex-col items-center justify-center">
-        <Link to="#home" smooth>
+        <Link to="#homepage" smooth>
           <BsRocket className=" text-4xl text-white mt-6 cursor-pointer" />
         </Link>
         <h4 className=" text-[8px] font-light mt-2 invisible group-hover/start:visible">
