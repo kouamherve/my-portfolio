@@ -20,11 +20,11 @@ export default function CardWork({ title, image }) {
   return (
     <div
       onClick={openDetail}
-      className="mb-8 mx-4"
+      className="mb-10 mx-4 md:mx-2"
       onMouseEnter={() => setIsHover(true)}
       onMouseLeave={() => setIsHover(false)}
     >
-      <div className=" relative flex w-full h-52 rounded border border-black">
+      <div className=" relative flex w-full h-44 md:w-80">
         <div className=" size-full">
           <img
             className=" w-full h-full object-cover object-center"

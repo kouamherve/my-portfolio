@@ -21,7 +21,7 @@ export default function Experience() {
             <h2 className=" text-md uppercase mt-0 mb-10 md:text-xl">
               Some technologies I've worked with:
             </h2>
-            <div className=" text-gray-500 text-5xl grid grid-cols-3 gap-10 items-center justify-center mb-16 mx-2 px-5 md:text-sm md:grid-cols-5">
+            <div className=" text-gray-500 text-5xl grid grid-cols-3 gap-10 mb-6 mx-2 px-5 md:text-sm md:grid-cols-5">
               <CardTech iconName="html" title="HTML" />
               <CardTech iconName="css" title="CSS" />
               <CardTech iconName="tailwindcss" title="TAILWINDCSS" />
@@ -35,7 +35,7 @@ export default function Experience() {
               <CardTech iconName="bootstrap" title="BOOTSTRAP" />
             </div>{" "}
           </div>
-          <div className="pb-5 flex flex-col items-center">
+          <div className="pt-8 pb-2 flex flex-col items-center">
             <h2 className=" text-md uppercase tracking-wider md:text-xl">
               Where I've worked:
             </h2>

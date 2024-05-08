@@ -5,7 +5,7 @@ export default function CardTech({ iconName, title }) {
     <div className="flex flex-col items-center justify-center">
       <h4 className="text-[9px]">{title}</h4>
       <img
-        className=" size-20 object-cover contrast-75 grayscale hover:grayscale-0 md:size-10"
+        className=" size-16 object-cover contrast-75 grayscale hover:grayscale-0 md:size-10"
         src={`/assets/icons/icons8-${iconName}-144.png`}
         alt="html"
       />

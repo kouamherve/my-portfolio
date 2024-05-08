@@ -17,7 +17,7 @@ export default function Resume() {
   };
 
   return (
-    <div className="flex items-center justify-center my-20 bg-resume-img bg-cover bg-center bg-black/75 bg-blend-darken h-[270px] bg-fixed overflow-x-hidden">
+    <div className="flex items-center justify-center mt-20 bg-resume-img bg-cover bg-center bg-black/75 bg-blend-darken h-[270px] bg-fixed overflow-x-hidden">
       <div className=" text-white  ">
         <h1 className=" text-xl uppercase tracking-wider md:text-3xl">
           Check out my résumé!
