@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @layer components {
-  .navbar {
-    @apply w-full fixed z-50;
+  .header {
+    @apply w-full h-fit fixed z-50;
   }
 }
 

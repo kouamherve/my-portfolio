@@ -17,15 +17,15 @@ export default function Resume() {
   };
 
   return (
-    <div className="flex items-center justify-center mb-10 bg-resume-img bg-cover bg-center bg-black/75 bg-blend-darken h-64 bg-fixed overflow-x-hidden">
+    <div className="flex items-center justify-center mt-20 bg-resume-img bg-cover bg-center bg-black/75 bg-blend-darken h-[270px] bg-fixed overflow-x-hidden">
       <div className=" text-white  ">
-        <h1 className=" text-xl uppercase font-light tracking-wider">
+        <h1 className=" text-xl uppercase tracking-wider md:text-3xl">
           Check out my résumé!
         </h1>
         <form onSubmit={getMyResume}>
           <button
             type="submit"
-            className=" bg-transparent hover:bg-gray-600/50 border border-white px-6 hover:px-8 py-2.5 mt-10 capitalize text-md font-thin "
+            className=" bg-transparent hover:bg-gray-600/50 border-2 border-white px-6 hover:px-8 py-2.5 mt-6 capitalize text-sm font-thin md:text-md "
           >
             Grab a copy
           </button>
