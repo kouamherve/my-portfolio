@@ -11,36 +11,24 @@ export default function Home() {
         <h1 className="uppercase text-white text-4xl tracking-wider text-nowrap mx-2 md:text-6xl md:mx-0">
           Hi, I'm{" "}
           <span className="text-black md:space-x-2">
-            <span className=" bg-white mx-0.5 px-1 py-0 rounded-md shadow ">
-              h
-            </span>
-            <span className=" bg-white mx-0.5 px-2 py-0 rounded-md shadow text-violet-600 ">
+            <span className=" bg-white mx-0.5 px-1 py-0 ">h</span>
+            <span className=" bg-white mx-0.5 px-2 py-0 text-violet-600 ">
               e
             </span>
-            <span className=" bg-white mx-0.5 px-2 py-0 rounded-md shadow ">
-              r
-            </span>
-            <span className=" bg-white mx-0.5 px-2 py-0 rounded-md shadow ">
-              v
-            </span>
-            <span className=" bg-white mx-0.5 px-2 py-0 rounded-md shadow text-violet-600 ">
+            <span className=" bg-white mx-0.5 px-2 py-0 ">r</span>
+            <span className=" bg-white mx-0.5 px-2 py-0 ">v</span>
+            <span className=" bg-white mx-0.5 px-2 py-0 text-violet-600 ">
               e
             </span>
           </span>{" "}
           <span className="text-black hidden ">
-            <span className=" bg-white mx-0.5 px-1 py-0 rounded-md shadow ">
-              k
-            </span>
-            <span className=" bg-white mx-0.5 px-2 py-0 rounded-md shadow text-violet-600 ">
+            <span className=" bg-white mx-0.5 px-1 py-0 ">k</span>
+            <span className=" bg-white mx-0.5 px-2 py-0 text-violet-600 ">
               o
             </span>
-            <span className=" bg-white mx-0.5 px-2 py-0 rounded-md shadow ">
-              u
-            </span>
-            <span className=" bg-white mx-0.5 px-2 py-0 rounded-md shadow ">
-              a
-            </span>
-            <span className=" bg-white mx-0.5 px-2 py-0 rounded-md shadow text-violet-600 ">
+            <span className=" bg-white mx-0.5 px-2 py-0 ">u</span>
+            <span className=" bg-white mx-0.5 px-2 py-0 ">a</span>
+            <span className=" bg-white mx-0.5 px-2 py-0 text-violet-600 ">
               m
             </span>
           </span>{" "}

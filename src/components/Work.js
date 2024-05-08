@@ -2,7 +2,7 @@ import CardWork from "./reusable-ui/CardWork";
 
 export default function Work() {
   return (
-    <section id="work" className=" font-Poppins mx-4 py-8">
+    <section id="work" className=" font-Poppins mx-4 pt-10 pb-20">
       <div className=" flex flex-col items-center justify-center">
         <div className=" text-center mb-10 tracking-wider">
           <h1 className="uppercase text-2xl md:text-3xl text-black mt-16 mb-4">

@@ -16,12 +16,12 @@ export default function Experience() {
           </p>
           <hr className=" border-2 border-gray-300 max-w-[100px] mx-auto md:max-w-[300px] md:mb-2" />
         </div>
-        <div className=" md:grid md:grid-cols-2 md:px-10 mt-4">
+        <div className=" md:grid md:grid-cols-2 md:px-10 mt-4 md:gap-6">
           <div>
-            <h2 className=" text-md uppercase mt-0 mb-10 md:text-xl">
+            <h2 className=" text-md uppercase mt-0 mb-6 md:text-xl">
               Some technologies I've worked with:
             </h2>
-            <div className=" text-gray-500 text-5xl grid grid-cols-3 gap-10 mb-6 mx-2 px-5 md:text-sm md:grid-cols-5">
+            <div className=" text-gray-500 text-5xl grid grid-cols-3 gap-8 mb-6 mx-2 px-5 md:gap-4 md:text-sm md:grid-cols-5">
               <CardTech iconName="html" title="HTML" />
               <CardTech iconName="css" title="CSS" />
               <CardTech iconName="tailwindcss" title="TAILWINDCSS" />
@@ -35,7 +35,7 @@ export default function Experience() {
               <CardTech iconName="bootstrap" title="BOOTSTRAP" />
             </div>{" "}
           </div>
-          <div className="pt-8 pb-2 flex flex-col items-center">
+          <div className="pt-8 pb-2 flex flex-col items-center md:pt-0">
             <h2 className=" text-md uppercase tracking-wider md:text-xl">
               Where I've worked:
             </h2>
